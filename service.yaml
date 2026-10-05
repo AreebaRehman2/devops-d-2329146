@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: devops-d-2329146
+spec:
+  type: NodePort
+  selector:
+    app: devops-d-2329146
+  ports:
+    - port: 80
+      targetPort: 80
